@@ -30,6 +30,9 @@
     "ci": "turbo run ci",
     "dev": "turbo run dev --ui tui"
   },
+  "dependencies": {
+    "@purrception/primitives": "file:libs/primitives"
+  },
   "devDependencies": {
     "@noodlestan/esbuild": "git+ssh://git@github.com/noodlestan/workspace-tooling.git#main",
     "@noodlestan/eslint-config": "git+ssh://git@github.com/noodlestan/eslint-config.git#main",
