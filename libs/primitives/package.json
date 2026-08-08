@@ -1,0 +1,43 @@
+{
+  "name": "@purrception/primitives",
+  "version": "0.0.11",
+  "description": "Purrception core types.",
+  "author": "Noodlestan Collective",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodlestan/purrception.git",
+    "directory": "libs/primitives"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "files": [
+    "src",
+    "LICENSE-MIT"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "lint": "prettier . -c && eslint . && tsc --noEmit",
+    "lint:fix": "prettier . -c --write && eslint . --fix",
+    "build:clean": "rm -rf dist",
+    "build": "vite build",
+    "test": "echo none yet",
+    "ci": "npm run lint && npm run build && npm run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "rollup": "^4.61.1",
+    "solid-js": "1.9.13",
+    "vite": "8.0.16",
+    "vite-plugin-solid": "2.11.12",
+    "vite-plugin-solid-svg": "0.8.1",
+    "vite-plugin-top-level-await": "1.6.0",
+    "vitest": "^4.1.8"
+  }
+}

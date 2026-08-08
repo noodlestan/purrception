@@ -1,0 +1,51 @@
+{
+  "name": "@purrception/source-fs",
+  "version": "0.0.11",
+  "description": "Purrception tools for extracting entities from file systems.",
+  "author": "Noodlestan Collective",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodlestan/purrception.git",
+    "directory": "cli/source-fs"
+  },
+  "type": "module",
+  "module": "dist/esm/index.mjs",
+  "main": "dist/cjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "types": "./dist/esm/index.d.ts",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE-MIT"
+  ],
+  "scripts": {
+    "dev": "esbuild-cli-watch",
+    "build:clean": "rm -rf dist",
+    "build:types:esm": "tsc --project tsconfig.esm.json",
+    "build:types:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "esbuild-cli",
+    "test": "echo none yet",
+    "test:watch": "vitest",
+    "lint": "prettier . -c && eslint . && tsc --noEmit",
+    "lint:fix": "prettier . -c --write && eslint . --fix",
+    "ci": "npm run lint && npm run build && npm run test"
+  },
+  "dependencies": {
+    "@purrception/primitives": "0.0.11",
+    "chokidar": "^5.0.0",
+    "perfect-debounce": "^2.1.0"
+  },
+  "devDependencies": {
+    "@noodlestan/esbuild": "git+ssh://git@github.com/noodlestan/workspace-tooling.git#main",
+    "@types/node": "^25.9.3"
+  }
+}
