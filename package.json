@@ -31,9 +31,7 @@
     "dev": "turbo run dev --ui tui"
   },
   "dependencies": {
-    "@purrception/primitives": "file:libs/primitives",
-    "@purrception/source-fs": "file:cli/source-fs",
-    "@purrception/lang-ts-extract": "file:cli/lang-ts-extract"
+    "@purrception/primitives": "file:libs/primitives"
   },
   "devDependencies": {
     "@noodlestan/esbuild": "git+ssh://git@github.com/noodlestan/workspace-tooling.git#main",
