@@ -6,9 +6,9 @@ Defines shared, minimal types for extractors.
 
 No logic or assumptions — purely structural.
 
-- `EntityDataBase` – base entity shape (`type`, `name`, extensible)
-- `EntityExtractContext<T>` – context wrapper
-- `EntityExtractResult<T>` – output of a processor
+- `EntityDataBase` — base entity shape (`type`, `name`, extensible)
+- `EntityExtractContext<T>` — context wrapper
+- `EntityExtractResult<T>` — output of a processor
 
 # `@purrception/source-fs`
 

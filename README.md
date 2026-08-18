@@ -8,13 +8,13 @@ Purrception is a layered, extensible entity extraction system designed to power 
 
 ### Libraries
 
-- [@purrception/primitives](./libs/primitives/README.md) – Core types.
-- [@purrception/lang-ts](./libs/lang-ts/README.md) – Lightweight TS AST definitions.
+- [@purrception/primitives](./libs/primitives/README.md) — Core types.
+- [@purrception/lang-ts](./libs/lang-ts/README.md) — Lightweight TS AST definitions.
 
 ### CLI
 
-- [@purrception/lang-ts-extract](./cli/lang-ts-extract/README.md) – extract TS AST from source.
-- [@purrception/source-fs](./cli/source-fs/README.md) – file-system traversal.
+- [@purrception/lang-ts-extract](./cli/lang-ts-extract/README.md) — extract TS AST from source.
+- [@purrception/source-fs](./cli/source-fs/README.md) — file-system traversal.
 
 ## Development
 
