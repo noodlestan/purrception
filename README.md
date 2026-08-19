@@ -16,10 +16,6 @@ Purrception is a layered, extensible entity extraction system designed to power 
 - [@purrception/lang-ts-extract](./cli/lang-ts-extract/README.md) — extract TS AST from source.
 - [@purrception/source-fs](./cli/source-fs/README.md) — file-system traversal.
 
-## Development
-
-Make sure you read the [root README](../README.md) first.
-
 ## MIT License
 
 Copyright (c) 2025 [Noodlestan](https://noodlestan.org/).

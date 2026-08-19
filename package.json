@@ -13,14 +13,6 @@
   "engines": {
     "node": ">=18"
   },
-  "main": "libs/lang-ts/src/index.ts",
-  "types": "libs/lang-ts/src/index.ts",
-  "exports": {
-    ".": {
-      "import": "./libs/lang-ts/src/index.ts",
-      "types": "./libs/lang-ts/src/index.ts"
-    }
-  },
   "scripts": {
     "clean": "turbo run build:clean",
     "build": "turbo run build",
