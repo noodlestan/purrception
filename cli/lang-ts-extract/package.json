@@ -1,6 +1,6 @@
 {
   "name": "@purrception/lang-ts-extract",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Purrception extractor for the Typescript Language",
   "author": "Noodlestan Collective",
   "license": "MIT",
