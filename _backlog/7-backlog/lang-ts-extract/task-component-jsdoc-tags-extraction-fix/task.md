@@ -1,10 +1,10 @@
 ---
 source: .agents/skills/write-task/SKILL.md
 references:
-    - .agents/domains/tasks/index.md
-    - .agents/domains/knowledge/index.md
+  - .agents/domains/tasks/index.md
+  - .agents/domains/knowledge/index.md
 skills:
-    - write-task
+  - write-task
 ---
 
 # Fix JsDoc tags not collected on component function

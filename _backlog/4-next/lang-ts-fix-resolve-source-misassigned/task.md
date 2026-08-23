@@ -1,4 +1,4 @@
-# purrception-lang-ts-fix-resolve-_source-misassigned
+# purrception-lang-ts-fix-resolve-\_source-misassigned
 
 ## Scope
 
@@ -23,4 +23,3 @@ Is it currently doing nothing on the entry point?
 ## How to test
 
 - In props table with `show groups` turned ON
-

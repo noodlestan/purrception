@@ -11,7 +11,7 @@
     "cli/*"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "scripts": {
     "clean": "turbo run build:clean",
