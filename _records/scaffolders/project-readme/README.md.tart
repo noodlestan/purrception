@@ -16,4 +16,6 @@
 - **$** `npm run {{%script.name}}` — {{%script.purpose}}
 ::END
 
-## {{%project.license.long}}
+## License
+
+{{%project.license.short}}
