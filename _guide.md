@@ -1,12 +1,12 @@
 # Purrception
 
-Layered entity extraction system for codebase introspection. A standalone npm workspaces monorepo providing core types, lightweight TypeScript AST definitions, file-system traversal, and a TypeScript AST extractor.
+Layered code rendering system for codebase data extracted with Purrception.
 
 ## Recommended Reading
 
-Agents SHOULD scan these files for definitions and resource locations when faced with uncertainty or ambiguity that may result from missing resources.
+Agents SHOULD scan these files for relevant clarifications when faced with ambiguity or omissions that may result from missing definitions.
 
-- `_guide.md` — this file: system overview, layout, records, workflows, and operating instructions.
+- `_guide.md` — this file: system overview, layout, setup, verification.
 - `_records/project.art` — the project record.
 - `_records/repository.art` — the repository record.
 
@@ -45,9 +45,13 @@ This repository maintains reference material at `libs/primitives/reference/` and
 
 ## Workflows
 
-### Planning Work
+Projects in this repository use the following workflows:
 
-This project plans its work with the workflow defined in `$DOMAINS/work/workflows/planning-work/workflow.art`.
+| Workflow / Path                                                        | Purpose                                                                                           |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Planning Work** `$DOMAINS/work/workflows/planning-work/workflow.art` | Create and manage work item lifecycles, collecting operational instructions according to context. |
+
+### Planning Work
 
 - The backlog lives at `_backlog/` with subdirectories such as `/1-done`, `/4-next`, and `/7-backlog`.
 
