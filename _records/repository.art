@@ -2,9 +2,9 @@
 
 ## Repository: Purrception
 
-**Purpose:** Host and manage the Purrception packages.
+**Purpose:** Host and manage the Purrception packages and tools, and their planning artefacts.
 
-**Description:** Single-purpose utilities for in-browser JSX/TSX compilation, SolidJS JSX transform presets, and Shiki-based syntax highlighting.
+**Description:** Monorepo containing the Purrception roadmap, libraries defining metadata sources and languages, CLI tools for metadata extraction, and their backlogs.
 
 **Owner:** Project: Purrception
 

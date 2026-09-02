@@ -1,8 +1,8 @@
-# @purrception
+# Purrception
 
-> Extract docs and structured metadata from codebases.
+> Extract and compose metadata from source code and artefacts.
 
-Purrception is a layered, extensible entity extraction system designed to power codebase introspection, metadata extraction, and documentation tooling. It is deeply type-aware and highly customizable.
+Collection of abstractions and tools for building metadata extraction pipelines from local and remote sources using heuristics, schemas, and factories.
 
 ## Packages
 

@@ -1,6 +1,10 @@
-# Purrception
+# Guide: Purrception
 
-Layered code rendering system for codebase data extracted with Purrception.
+> Host and manage the Purrception packages and tools, and their planning artefacts.
+
+Monorepo containing the Purrception roadmap, libraries defining metadata sources and languages, CLI tools for metadata extraction, and their backlogs.
+
+Uses Workflow: Planning Work with one backlog per package, coordinating with Workflow: Roadmapping from one project-wide roadmap.
 
 ## Recommended Reading
 

@@ -1,7 +1,7 @@
 {
   "name": "purrception",
   "version": "0.0.12",
-  "description": "Layered entity extraction system for codebase introspection.",
+  "description": "Collection of abstractions and tools for building metadata extraction pipelines from local and remote sources using heuristics, schemas, and factories.",
   "author": "Noodlestan Collective",
   "license": "MIT",
   "private": true,
