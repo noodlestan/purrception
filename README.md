@@ -16,6 +16,15 @@ Collection of abstractions and tools for building metadata extraction pipelines 
 - [@purrception/lang-ts-extract](./cli/lang-ts-extract/README.md) — extract TS AST from source.
 - [@purrception/source-fs](./cli/source-fs/README.md) — file-system traversal.
 
+## Development
+
+### Scripts
+
+- **$** `npm run turbo build` — Build all packages.
+- **$** `npm run turbo test` — Run tests in all packages.
+- **$** `npm run turbo lint` — Lint all packages (Prettier + ESLint).
+- **$** `npm run ci` — Run all CI scripts in all packages.
+
 ## License
 
 MIT License
