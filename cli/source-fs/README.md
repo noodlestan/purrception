@@ -10,13 +10,19 @@ Make sure you read the [@purrception README](../../README.md) first.
 
 ### Build Targets
 
-This library is packaged for use in bundlers such as Vite and Astro. The main entry point is the Typescript source code.
+This package is meant for use in Node.js environments. The entry point is built using `esbuild` pre-configured by [Workspace Tooling](https://github.com/noodlestan/workspace-tooling).
 
 ### Scripts
 
-- **$** `npm run dev` - uses `Vite` to (re)build on changes
-- **$** `npm run build` - uses `Vite` to do produce a dry build in `dist/`.
-- **$** `npm run lint` / `npm run lint:fix` - uses [@noodlestan/eslint-config](https://www.npmjs.com/package/@noodlestan/eslint-config).
+- **$** `npm run dev` — Watch mode for development
+- **$** `npm run build` — Build the CLI package
+- **$** `npm run build:types:esm` — Generate ESM type definitions
+- **$** `npm run build:types:cjs` — Generate CJS type definitions
+- **$** `npm run lint` — Check formatting, lint, and type check
+- **$** `npm run lint:fix` — Fix formatting and lint issues
+- **$** `npm run build:clean` — Remove build artifacts
+- **$** `npm run ci` — Run CI pipeline
+- **$** `npm run test` — Run tests
 
 ## License
 
