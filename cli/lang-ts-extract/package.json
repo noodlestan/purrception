@@ -29,23 +29,21 @@
   ],
   "scripts": {
     "dev": "esbuild-cli-watch",
+    "lint": "prettier . -c && eslint . && tsc --noEmit",
+    "lint:fix": "prettier . -c --write && eslint . --fix",
+    "build": "esbuild-cli",
     "build:clean": "rm -rf dist",
     "build:types:esm": "tsc --project tsconfig.esm.json",
     "build:types:cjs": "tsc --project tsconfig.cjs.json",
-    "build": "esbuild-cli",
-    "test": "echo none yet",
+    "test": "vitest run",
+    "test:ci": "vitest run --coverage",
     "test:watch": "vitest",
-    "lint": "prettier . -c && eslint . && tsc --noEmit",
-    "lint:fix": "prettier . -c --write && eslint . --fix",
-    "ci": "npm run lint && npm run build && npm run test"
+    "ci": "npm run lint && npm run build && npm run test:ci"
   },
   "dependencies": {
     "@purrception/primitives": "0.0.11",
     "@purrception/lang-ts": "0.0.11",
     "typescript": "^5.9.3"
   },
-  "devDependencies": {
-    "@noodlestan/esbuild": "^0.0.13",
-    "@types/node": "^25.9.3"
-  }
+  "devDependencies": {}
 }
