@@ -23,6 +23,12 @@ This package does not maintain dedicated records; see the repository `_records/`
 
 This package does not maintain a dedicated architecture reference.
 
+## Conventions
+
+This package follows strict conventions.
+
+::READ `../../_guide.md` for repository-wide conventions.
+
 ## Operating Instructions
 
 ### Operating Instructions: Setting Up

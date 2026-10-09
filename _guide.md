@@ -47,6 +47,19 @@ Records are co-located with the resources they describe in `_records/` directori
 
 This repository maintains reference material at `libs/primitives/reference/` and `libs/lang-ts/reference/`.
 
+## Conventions
+
+This repository follows strict conventions.
+
+Read the convention indexes listed below and follow them when planning and executing work.
+
+The following conventions apply to all packages in this repository:
+
+::READ `./node_modules/@noodlestan/conventions-typescript/art/index.md` — TypeScript conventions.
+::READ `./node_modules/@noodlestan/conventions-unit-tests/art/index.md` — Unit Test conventions.
+
+In case of ambiguity or conflict applying conventions, follow links from the convention indexes to extended convention files and read the examples there for what to follow and what to avoid.
+
 ## Workflows
 
 Projects in this repository use the following workflows:
