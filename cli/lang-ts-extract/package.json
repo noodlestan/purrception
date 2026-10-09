@@ -1,6 +1,6 @@
 {
   "name": "@purrception/lang-ts-extract",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "Purrception extractor for the Typescript Language",
   "author": "Noodlestan Collective",
   "license": "MIT",
@@ -36,8 +36,8 @@
     "ci": "npm run lint && npm run build && npm run test:ci"
   },
   "dependencies": {
-    "@purrception/primitives": "0.0.12",
-    "@purrception/lang-ts": "0.0.12",
+    "@purrception/primitives": "^0.1.0",
+    "@purrception/lang-ts": "^0.1.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {}
