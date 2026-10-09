@@ -1,4 +1,4 @@
-import type { DirectoryExtractAPI } from '../types';
+import type { DirectoryExtractAPI } from '../types.js';
 
 export type FilesystemExtractContext = {
 	rootDir: string;

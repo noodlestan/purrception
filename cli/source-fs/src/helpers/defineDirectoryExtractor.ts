@@ -1,9 +1,9 @@
 import type { EntityDataBase, EntityDataBasePartial } from '@purrception/primitives';
 
-import type { DirectoryExtractContext } from '../contexts';
-import type { DirectoryExtractAPI, EntityExtractorFiles } from '../types';
+import type { DirectoryExtractContext } from '../contexts/index.js';
+import type { DirectoryExtractAPI, EntityExtractorFiles } from '../types.js';
 
-import type { Options } from './types';
+import type { Options } from './types.js';
 
 export function defineDirectoryExtractor<
 	P extends EntityDataBasePartial,

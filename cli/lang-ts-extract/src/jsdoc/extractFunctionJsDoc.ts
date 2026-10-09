@@ -7,7 +7,7 @@ import {
 	extractReturnsTag,
 	extractTags,
 	extractTemplateTags,
-} from './private';
+} from './private/index.js';
 export function extractFunctionJsDoc(node: FunctionLikeDeclaration): FunctionJsDocData {
 	const jsDoc = ts.getJSDocCommentsAndTags(node as ts.Node).find(ts.isJSDoc) as
 		| ts.JSDoc

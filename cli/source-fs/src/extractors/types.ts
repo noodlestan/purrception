@@ -1,5 +1,5 @@
-import type { FilesystemExtractHooks } from '../contexts';
-import type { DirectoryExtractAPI } from '../types';
+import type { FilesystemExtractHooks } from '../contexts/index.js';
+import type { DirectoryExtractAPI } from '../types.js';
 
 export type ExtractEntitiesFromFileSystemOptions = {
 	rootDir: string;

@@ -1,6 +1,10 @@
-import { type TypeExpressionNode, type UnionTypeNode, isUnionTypeNode } from '../../../node';
-import type { ResolveTypeContext } from '../../types';
-import { resolveExpression } from '../resolveExpression';
+import {
+	type TypeExpressionNode,
+	type UnionTypeNode,
+	isUnionTypeNode,
+} from '../../../node/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { resolveExpression } from '../resolveExpression.js';
 
 function withSource<T extends TypeExpressionNode>(
 	node: T,

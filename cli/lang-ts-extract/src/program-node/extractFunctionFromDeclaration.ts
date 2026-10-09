@@ -5,8 +5,8 @@ import {
 } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractFunctionJsDoc, hasJsDocIgnore } from '../jsdoc';
-import type { ProgramFileAPI } from '../program';
+import { extractFunctionJsDoc, hasJsDocIgnore } from '../jsdoc/index.js';
+import type { ProgramFileAPI } from '../program/index.js';
 
 import {
 	extractExportedName,
@@ -15,7 +15,7 @@ import {
 	extractNodeGenerics,
 	extractVariableFunctionType,
 	isExportedDeclaration,
-} from './helpers';
+} from './helpers/index.js';
 
 /**
  * Resolves the implementation declaration associated with a function-like node.

@@ -1,7 +1,7 @@
 import type { TemplateLiteralTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractTemplateLiteralTypeNode(
 	node: ts.TemplateLiteralTypeNode,

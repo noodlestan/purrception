@@ -3,11 +3,11 @@ import {
 	type TypeExpressionNode,
 	isLiteralTypeNode,
 	isObjectLiteralTypeNode,
-} from '../../../node';
-import { hasTag } from '../../helpers';
-import type { ResolveTypeContext } from '../../types';
-import { normalizeUnion } from '../normalize';
-import { resolveExpression } from '../resolveExpression';
+} from '../../../node/index.js';
+import { hasTag } from '../../helpers/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { normalizeUnion } from '../normalize/index.js';
+import { resolveExpression } from '../resolveExpression.js';
 
 export function resolveOmit(context: ResolveTypeContext, exp: OmitTypeNode): TypeExpressionNode {
 	const { source, members: expMembers, ...rest } = exp;

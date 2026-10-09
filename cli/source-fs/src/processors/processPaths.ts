@@ -1,7 +1,7 @@
-import type { FilesystemExtractContext } from '../contexts';
-import type { DirectoryEntityProcessor } from '../types';
+import type { FilesystemExtractContext } from '../contexts/index.js';
+import type { DirectoryEntityProcessor } from '../types.js';
 
-import { processDirectory } from './private';
+import { processDirectory } from './private/index.js';
 
 export async function processPackagePaths(
 	ctx: FilesystemExtractContext,

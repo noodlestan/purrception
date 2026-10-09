@@ -1,3 +1,3 @@
 // @index(['./*.{ts,tsx}', './!(private|parts|functions)*/index.{ts,tsx}'], f => `export * from '${f.path.replace(/\/index$/, '')}';`)
-export * from './createDebouncedWatcher';
-export * from './splitContextsToUpdate';
+export * from './createDebouncedWatcher.js';
+export * from './splitContextsToUpdate.js';

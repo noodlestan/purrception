@@ -1,6 +1,6 @@
-import { type OperatorTypeNode, type TypeExpressionNode } from '../../../node';
-import type { ResolveTypeContext } from '../../types';
-import { resolveOperatorKeyOf } from '../operators';
+import { type OperatorTypeNode, type TypeExpressionNode } from '../../../node/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { resolveOperatorKeyOf } from '../operators/index.js';
 
 export function resolveOperator(
 	context: ResolveTypeContext,

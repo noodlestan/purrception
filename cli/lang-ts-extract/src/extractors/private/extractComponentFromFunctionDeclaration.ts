@@ -5,10 +5,10 @@ import {
 	isTypeRefNode,
 } from '@purrception/lang-ts';
 
-import { extractComponentProps } from './extractComponentProps';
-import { isComponentType } from './isComponentType';
-import { isJSXReturnType } from './isJSXReturnType';
-import { isParentComponentType } from './isParentComponentType';
+import { extractComponentProps } from './extractComponentProps.js';
+import { isComponentType } from './isComponentType.js';
+import { isJSXReturnType } from './isJSXReturnType.js';
+import { isParentComponentType } from './isParentComponentType.js';
 
 /**
  * Converts a function declaration into a component declaration when the

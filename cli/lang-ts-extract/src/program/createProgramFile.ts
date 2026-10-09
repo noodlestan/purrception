@@ -2,10 +2,15 @@ import path from 'path';
 
 import ts from 'typescript';
 
-import { getFileJsDoc } from '../jsdoc';
+import { getFileJsDoc } from '../jsdoc/index.js';
 
-import { getExportMap, getImportMap, getProgramFunctions, getProgramTypes } from './helpers';
-import type { ProgramFileAPI, ProgramFilesContext } from './types';
+import {
+	getExportMap,
+	getImportMap,
+	getProgramFunctions,
+	getProgramTypes,
+} from './helpers/index.js';
+import type { ProgramFileAPI, ProgramFilesContext } from './types.js';
 
 export async function createProgramFile(
 	ctx: ProgramFilesContext,

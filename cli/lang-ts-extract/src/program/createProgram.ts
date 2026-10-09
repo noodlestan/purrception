@@ -6,10 +6,10 @@ import {
 	extractFunctionsFromProgram,
 	extractImportsFromProgram,
 	extractTypesFromProgram,
-} from '../extractors';
+} from '../extractors/index.js';
 
-import { createProgramFile } from './createProgramFile';
-import type { ProgramAPI, ProgramFileAPI, ProgramFilesContext } from './types';
+import { createProgramFile } from './createProgramFile.js';
+import type { ProgramAPI, ProgramFileAPI, ProgramFilesContext } from './types.js';
 
 export async function createProgram(
 	ctx: ProgramFilesContext,

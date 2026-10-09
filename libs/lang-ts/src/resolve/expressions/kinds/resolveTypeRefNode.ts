@@ -1,9 +1,9 @@
-import { isInterfaceDeclaration, isTypeDeclaration } from '../../../declaration';
-import { type TypeExpressionNode, type TypeRefNode, isBuiltInToken } from '../../../node';
-import { resolveTypeDeclaration } from '../../resolveTypeDeclaration';
-import type { ResolveTypeContext } from '../../types';
+import { isInterfaceDeclaration, isTypeDeclaration } from '../../../declaration/index.js';
+import { type TypeExpressionNode, type TypeRefNode, isBuiltInToken } from '../../../node/index.js';
+import { resolveTypeDeclaration } from '../../resolveTypeDeclaration.js';
+import type { ResolveTypeContext } from '../../types.js';
 
-import { resolveNodeMember } from './resolveNodeMember';
+import { resolveNodeMember } from './resolveNodeMember.js';
 
 export function resolveTypeRefNode(
 	context: ResolveTypeContext,

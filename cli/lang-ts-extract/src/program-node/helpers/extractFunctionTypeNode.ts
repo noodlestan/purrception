@@ -1,9 +1,9 @@
 import type { FunctionTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractFunctionParams } from './extractFunctionParams';
-import { extractFunctionReturns } from './extractFunctionReturns';
-import { extractNodeGenerics } from './extractNodeGenerics';
+import { extractFunctionParams } from './extractFunctionParams.js';
+import { extractFunctionReturns } from './extractFunctionReturns.js';
+import { extractNodeGenerics } from './extractNodeGenerics.js';
 
 export function extractFunctionTypeNode(node: ts.FunctionTypeNode): FunctionTypeNode {
 	const generic = extractNodeGenerics(node);

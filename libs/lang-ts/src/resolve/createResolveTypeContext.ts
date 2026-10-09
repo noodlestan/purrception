@@ -1,8 +1,8 @@
 import type { EntityDataBase } from '@purrception/primitives';
 
-import type { TypeExpressionNode } from '../node';
+import type { TypeExpressionNode } from '../node/index.js';
 
-import type { ResolveTypeContext } from './types';
+import type { ResolveTypeContext } from './types.js';
 
 const stackKey = (entity: EntityDataBase, type: string): string => {
 	return `${entity.package}/${entity.name}/${type}`;

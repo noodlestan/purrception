@@ -1,7 +1,7 @@
 import { type TypeExpressionGeneric, createPrimitiveNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeRef } from './extractTypeRef';
+import { extractTypeRef } from './extractTypeRef.js';
 
 export function extractNodeGenerics(node: ts.Node): TypeExpressionGeneric[] | undefined {
 	if (!('typeParameters' in node)) {

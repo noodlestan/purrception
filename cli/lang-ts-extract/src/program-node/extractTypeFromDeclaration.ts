@@ -5,15 +5,15 @@ import {
 } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractNodeJsDoc } from '../jsdoc';
-import type { ProgramFileAPI } from '../program';
+import { extractNodeJsDoc } from '../jsdoc/index.js';
+import type { ProgramFileAPI } from '../program/index.js';
 
 import {
 	extractExportedName,
 	extractInterfaceDeclaration,
 	extractTypeExpression,
 	isExportedDeclaration,
-} from './helpers';
+} from './helpers/index.js';
 
 export function extractTypeFromDeclaration(
 	programFile: ProgramFileAPI,

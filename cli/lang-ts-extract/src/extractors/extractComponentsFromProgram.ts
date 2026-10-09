@@ -1,9 +1,9 @@
 import { type ComponentDeclaration, type FunctionDeclaration } from '@purrception/lang-ts';
 
-import { type ProgramFileAPI } from '../program';
-import { extractFunctionFromDeclaration } from '../program-node';
+import { type ProgramFileAPI } from '../program/index.js';
+import { extractFunctionFromDeclaration } from '../program-node/index.js';
 
-import { extractComponentFromFunctionDeclaration } from './private';
+import { extractComponentFromFunctionDeclaration } from './private/index.js';
 
 export function extractComponentsFromProgram(program: ProgramFileAPI): ComponentDeclaration[] {
 	const funcsDeclarations = program.functions();

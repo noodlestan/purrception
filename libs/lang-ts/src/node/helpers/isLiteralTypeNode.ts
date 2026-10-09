@@ -1,4 +1,4 @@
-import type { LiteralTypeNode, TypeExpressionNode } from '../types';
+import type { LiteralTypeNode, TypeExpressionNode } from '../types.js';
 
 export function isLiteralTypeNode(
 	exp: TypeExpressionNode,

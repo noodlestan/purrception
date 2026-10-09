@@ -1,12 +1,12 @@
 import { type InterfaceDeclaration, PurrceptionLanguageId } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import type { ProgramFileAPI } from '../../program';
+import type { ProgramFileAPI } from '../../program/index.js';
 
-import { extractNodeGenerics } from './extractNodeGenerics';
-import { extractObjectLiteralTypeNode } from './extractObjectLiteralTypeNode';
-import { extractTypeExpression } from './extractTypeExpression';
-import { isExportedDeclaration } from './isExportedDeclaration';
+import { extractNodeGenerics } from './extractNodeGenerics.js';
+import { extractObjectLiteralTypeNode } from './extractObjectLiteralTypeNode.js';
+import { extractTypeExpression } from './extractTypeExpression.js';
+import { isExportedDeclaration } from './isExportedDeclaration.js';
 
 export function extractInterfaceDeclaration(
 	programFile: ProgramFileAPI,

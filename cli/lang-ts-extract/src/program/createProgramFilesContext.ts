@@ -1,4 +1,4 @@
-import type { ProgramFilesContext } from './types';
+import type { ProgramFilesContext } from './types.js';
 
 export function createProgramFilesContext(
 	path: string,

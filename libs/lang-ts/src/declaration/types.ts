@@ -1,14 +1,14 @@
 import type { LanguageDeclaredSymbol } from '@purrception/primitives';
 import type ts from 'typescript';
 
-import type { JsDocData } from '../jsdoc';
+import type { JsDocData } from '../jsdoc/index.js';
 import type {
 	ComponentNode,
 	FunctionTypeNode,
 	ObjectLiteralTypeMember,
 	TypeExpressionGeneric,
 	TypeExpressionNode,
-} from '../node';
+} from '../node/index.js';
 
 export type FunctionLikeDeclaration = ts.FunctionDeclaration | ts.VariableStatement;
 

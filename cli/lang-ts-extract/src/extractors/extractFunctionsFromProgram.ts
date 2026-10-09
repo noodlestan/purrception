@@ -1,7 +1,7 @@
 import type { FunctionDeclaration } from '@purrception/lang-ts';
 
-import { type ProgramFileAPI } from '../program';
-import { extractFunctionFromDeclaration } from '../program-node';
+import { type ProgramFileAPI } from '../program/index.js';
+import { extractFunctionFromDeclaration } from '../program-node/index.js';
 
 /**
  * Extracts all exported function-like declarations from a source file.

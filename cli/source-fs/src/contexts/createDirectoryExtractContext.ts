@@ -1,12 +1,12 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-import { createDirectoryExtractMeta } from './createDirectoryExtractMeta';
+import { createDirectoryExtractMeta } from './createDirectoryExtractMeta.js';
 import type {
 	DirectoryExtractContext,
 	DirectoryExtractMeta,
 	FilesystemExtractContext,
-} from './types';
+} from './types.js';
 
 export function createDirectoryExtractContext(
 	ctx: FilesystemExtractContext,

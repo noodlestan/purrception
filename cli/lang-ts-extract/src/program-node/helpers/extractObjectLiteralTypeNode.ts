@@ -5,8 +5,8 @@ import type {
 } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractNodeGenerics } from './extractNodeGenerics';
-import { extractObjectLiteralTypeMember } from './extractObjectLiteralTypeMember';
+import { extractNodeGenerics } from './extractNodeGenerics.js';
+import { extractObjectLiteralTypeMember } from './extractObjectLiteralTypeMember.js';
 
 export function extractObjectLiteralTypeNode(
 	node: ts.InterfaceDeclaration | ts.TypeLiteralNode,

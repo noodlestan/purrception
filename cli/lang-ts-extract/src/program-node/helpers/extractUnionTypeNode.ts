@@ -1,7 +1,7 @@
 import type { UnionTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractUnionTypeNode(node: ts.UnionTypeNode): UnionTypeNode {
 	const entries = node.types.map(typeNode => extractTypeExpression(typeNode));

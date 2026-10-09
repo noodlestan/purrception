@@ -1,9 +1,9 @@
-import { PurrceptionLanguageId } from '../../constants';
-import type { InterfaceDeclaration, TypeExpressionDeclaration } from '../../declaration';
-import type { ObjectLiteralTypeMember, ObjectLiteralTypeNode } from '../../node';
-import { resolveExpression } from '../expressions';
-import { hasTag } from '../helpers';
-import { type ResolveTypeContext } from '../types';
+import { PurrceptionLanguageId } from '../../constants.js';
+import type { InterfaceDeclaration, TypeExpressionDeclaration } from '../../declaration/index.js';
+import type { ObjectLiteralTypeMember, ObjectLiteralTypeNode } from '../../node/index.js';
+import { resolveExpression } from '../expressions/index.js';
+import { hasTag } from '../helpers/index.js';
+import { type ResolveTypeContext } from '../types.js';
 
 function mergeObject(
 	context: ResolveTypeContext,

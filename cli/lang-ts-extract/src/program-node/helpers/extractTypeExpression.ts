@@ -1,22 +1,22 @@
 import { type TypeExpressionNode, createPrimitiveNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractArrayTypeNode } from './extractArrayTypeNode';
-import { extractConditionalTypeNode } from './extractConditionalTypeNode';
-import { extractFunctionTypeNode } from './extractFunctionTypeNode';
-import { extractInferTypeNode } from './extractInferTypeNode';
-import { extractIntersectionTypeNode } from './extractIntersectionTypeNode';
-import { extractLiteralTypeNode } from './extractLiteralTypeNode';
-import { extractMappedTypeNode } from './extractMappedTypeNode';
-import { extractObjectLiteralTypeNode } from './extractObjectLiteralTypeNode';
-import { extractOmitTypeNode } from './extractOmitTypeNode';
-import { extractOperatorTypeExpression } from './extractOperatorTypeExpression';
-import { extractPickTypeNode } from './extractPickTypeNode';
-import { extractTemplateLiteralTypeNode } from './extractTemplateLiteralTypeNode';
-import { extractTupleTypeNode } from './extractTupleTypeNode';
-import { extractTypeRef } from './extractTypeRef';
-import { extractUnionTypeNode } from './extractUnionTypeNode';
-import { throwUnsupportedNodeError } from './throwUnsupportedNodeError';
+import { extractArrayTypeNode } from './extractArrayTypeNode.js';
+import { extractConditionalTypeNode } from './extractConditionalTypeNode.js';
+import { extractFunctionTypeNode } from './extractFunctionTypeNode.js';
+import { extractInferTypeNode } from './extractInferTypeNode.js';
+import { extractIntersectionTypeNode } from './extractIntersectionTypeNode.js';
+import { extractLiteralTypeNode } from './extractLiteralTypeNode.js';
+import { extractMappedTypeNode } from './extractMappedTypeNode.js';
+import { extractObjectLiteralTypeNode } from './extractObjectLiteralTypeNode.js';
+import { extractOmitTypeNode } from './extractOmitTypeNode.js';
+import { extractOperatorTypeExpression } from './extractOperatorTypeExpression.js';
+import { extractPickTypeNode } from './extractPickTypeNode.js';
+import { extractTemplateLiteralTypeNode } from './extractTemplateLiteralTypeNode.js';
+import { extractTupleTypeNode } from './extractTupleTypeNode.js';
+import { extractTypeRef } from './extractTypeRef.js';
+import { extractUnionTypeNode } from './extractUnionTypeNode.js';
+import { throwUnsupportedNodeError } from './throwUnsupportedNodeError.js';
 
 const primitiveKinds = new Set([
 	ts.SyntaxKind.NumberKeyword,

@@ -1,7 +1,7 @@
 import type { DeclaredSymbol } from '@purrception/primitives';
 
-import { PurrceptionLanguageId } from '../../constants';
-import type { FunctionDeclaration } from '../types';
+import { PurrceptionLanguageId } from '../../constants.js';
+import type { FunctionDeclaration } from '../types.js';
 
 export function isFunctionDeclaration(dec?: DeclaredSymbol): dec is FunctionDeclaration {
 	return (

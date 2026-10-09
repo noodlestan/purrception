@@ -1,8 +1,8 @@
 import type { AnonymousEntityProcessor } from '@purrception/primitives';
 
-import type { FilesystemExtractContext } from '../contexts';
+import type { FilesystemExtractContext } from '../contexts/index.js';
 
-import { processDirectory } from './private';
+import { processDirectory } from './private/index.js';
 
 export async function processRootDir(
 	ctx: FilesystemExtractContext,

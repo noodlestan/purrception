@@ -1,6 +1,6 @@
 import ts from 'typescript';
 
-import type { ProgramFileAPI } from '../../program';
+import type { ProgramFileAPI } from '../../program/index.js';
 
 export function isExportedDeclaration(
 	programFile: ProgramFileAPI,

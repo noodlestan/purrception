@@ -1,4 +1,4 @@
-import { type TypeExpressionNode, isObjectLiteralTypeNode } from '../../../node';
+import { type TypeExpressionNode, isObjectLiteralTypeNode } from '../../../node/index.js';
 
 export function resolveNodeMember(
 	node: TypeExpressionNode,

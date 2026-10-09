@@ -1,6 +1,6 @@
 import type { EntityDataBase } from '@purrception/primitives';
 
-import type { JsDocData, JsDocTags } from '../jsdoc';
+import type { JsDocData, JsDocTags } from '../jsdoc/index.js';
 
 export type TypeExpressionKind =
 	| 'ref'

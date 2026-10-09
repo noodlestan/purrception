@@ -2,11 +2,11 @@ import {
 	type IntersectionTypeNode,
 	type ObjectLiteralTypeMember,
 	type ObjectLiteralTypeNode,
-} from '../../../node';
-import { hasTag } from '../../helpers';
-import type { ResolveTypeContext } from '../../types';
-import { normalizeObjectLiteral } from '../normalize';
-import { resolveExpression } from '../resolveExpression';
+} from '../../../node/index.js';
+import { hasTag } from '../../helpers/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { normalizeObjectLiteral } from '../normalize/index.js';
+import { resolveExpression } from '../resolveExpression.js';
 
 function mergeMembers(
 	context: ResolveTypeContext,

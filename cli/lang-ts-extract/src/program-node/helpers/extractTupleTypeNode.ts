@@ -1,7 +1,7 @@
 import type { NamedTupleTypeElement, TupleTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractTupleTypeNode(node: ts.TupleTypeNode): TupleTypeNode {
 	const elements = node.elements.map(element => {

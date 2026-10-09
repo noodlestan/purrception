@@ -1,7 +1,7 @@
 import type { TypeRefNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeRef } from './extractTypeRef';
+import { extractTypeRef } from './extractTypeRef.js';
 
 export function extractVariableFunctionType(node: ts.VariableDeclaration): TypeRefNode | undefined {
 	if (!node.type) {

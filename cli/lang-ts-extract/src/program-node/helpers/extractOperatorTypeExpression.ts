@@ -1,7 +1,7 @@
 import type { OperatorTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 const operatorMap: Partial<Record<ts.SyntaxKind, string>> = {
 	[ts.SyntaxKind.ReadonlyKeyword]: 'readonly',

@@ -1,7 +1,7 @@
-import type { ObjectLiteralTypeMember, ObjectLiteralTypeNode } from '../../../node';
-import { hasTag } from '../../helpers';
-import type { ResolveTypeContext } from '../../types';
-import { resolveExpression } from '../resolveExpression';
+import type { ObjectLiteralTypeMember, ObjectLiteralTypeNode } from '../../../node/index.js';
+import { hasTag } from '../../helpers/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { resolveExpression } from '../resolveExpression.js';
 
 export function resolveObject(
 	context: ResolveTypeContext,

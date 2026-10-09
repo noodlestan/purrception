@@ -6,7 +6,7 @@ import type {
 	EntityExtractResult,
 } from '@purrception/primitives';
 
-import type { DirectoryExtractContext } from './contexts';
+import type { DirectoryExtractContext } from './contexts/index.js';
 
 export type EntityMetaMatcher<P extends EntityDataBasePartial> = (
 	ctx: DirectoryExtractContext,

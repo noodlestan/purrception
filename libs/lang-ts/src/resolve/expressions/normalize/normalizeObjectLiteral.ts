@@ -4,7 +4,7 @@ import {
 	createTypeRefNode,
 	isMappedTypeNode,
 	isObjectLiteralTypeNode,
-} from '../../../node';
+} from '../../../node/index.js';
 
 export function normalizeObjectLiteral(exp: TypeExpressionNode): ObjectLiteralTypeNode | undefined {
 	if (isObjectLiteralTypeNode(exp)) {

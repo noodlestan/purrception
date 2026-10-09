@@ -1,4 +1,4 @@
-import type { FilesystemExtractContext, FilesystemExtractContextOptions } from './types';
+import type { FilesystemExtractContext, FilesystemExtractContextOptions } from './types.js';
 
 export function createFilesystemExtractContext(
 	options: FilesystemExtractContextOptions,

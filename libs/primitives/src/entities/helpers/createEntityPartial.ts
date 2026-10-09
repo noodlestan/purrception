@@ -1,4 +1,4 @@
-import type { EntityDataBasePartial } from '../../types';
+import type { EntityDataBasePartial } from '../../types.js';
 
 export function createEntityPartial<T extends string = string>(
 	type: T,

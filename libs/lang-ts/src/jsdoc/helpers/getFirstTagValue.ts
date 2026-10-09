@@ -1,4 +1,4 @@
-import type { JsDocTags } from '../types';
+import type { JsDocTags } from '../types.js';
 
 export function getFirstTagValue(tags?: JsDocTags, tagName?: string): string | undefined {
 	const tag = tags?.[tagName || ''];

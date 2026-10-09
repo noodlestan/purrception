@@ -5,7 +5,7 @@ import {
 } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractFunctionReturns(
 	returnType: ts.TypeNode | undefined,

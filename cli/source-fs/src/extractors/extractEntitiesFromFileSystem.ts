@@ -1,9 +1,9 @@
 import type { EntityExtractResult } from '@purrception/primitives';
 
-import { createFilesystemExtractContext } from '../contexts';
-import { processRootDir } from '../processors';
+import { createFilesystemExtractContext } from '../contexts/index.js';
+import { processRootDir } from '../processors/index.js';
 
-import type { ExtractEntitiesFromFileSystemOptions } from './types';
+import type { ExtractEntitiesFromFileSystemOptions } from './types.js';
 
 export async function extractEntitiesFromFileSystem(
 	opts: ExtractEntitiesFromFileSystemOptions,

@@ -2,9 +2,9 @@ import {
 	type OperatorTypeNode,
 	type TypeExpressionNode,
 	isObjectLiteralTypeNode,
-} from '../../../node';
-import type { ResolveTypeContext } from '../../types';
-import { resolveExpression } from '../resolveExpression';
+} from '../../../node/index.js';
+import type { ResolveTypeContext } from '../../types.js';
+import { resolveExpression } from '../resolveExpression.js';
 
 export function resolveOperatorKeyOf(
 	context: ResolveTypeContext,

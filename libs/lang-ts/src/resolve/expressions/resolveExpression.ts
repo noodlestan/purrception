@@ -1,13 +1,13 @@
-import { type TypeExpressionNode } from '../../node';
-import type { ResolveTypeContext } from '../types';
+import { type TypeExpressionNode } from '../../node/index.js';
+import type { ResolveTypeContext } from '../types.js';
 
-import { resolveOperator } from './kinds';
-import { resolveIntersection } from './kinds/resolveIntersection';
-import { resolveObject } from './kinds/resolveObject';
-import { resolveOmit } from './kinds/resolveOmit';
-import { resolvePick } from './kinds/resolvePick';
-import { resolveTypeRefNode } from './kinds/resolveTypeRefNode';
-import { resolveUnion } from './kinds/resolveUnion';
+import { resolveOperator } from './kinds/index.js';
+import { resolveIntersection } from './kinds/resolveIntersection.js';
+import { resolveObject } from './kinds/resolveObject.js';
+import { resolveOmit } from './kinds/resolveOmit.js';
+import { resolvePick } from './kinds/resolvePick.js';
+import { resolveTypeRefNode } from './kinds/resolveTypeRefNode.js';
+import { resolveUnion } from './kinds/resolveUnion.js';
 
 export function resolveExpression(
 	context: ResolveTypeContext,

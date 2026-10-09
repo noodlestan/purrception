@@ -1,6 +1,6 @@
 import type { EntityDataBase } from '@purrception/primitives';
 
-import type { TypeExpressionNode } from '../node';
+import type { TypeExpressionNode } from '../node/index.js';
 
 export type ResolveTypeContext = {
 	entity: EntityDataBase;

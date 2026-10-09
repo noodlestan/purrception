@@ -2,11 +2,14 @@ import {
 	type InterfaceDeclaration,
 	type TypeDeclaration,
 	type TypeExpressionDeclaration,
-} from '../declaration';
-import { type TypeExpressionNode, type TypeResolutionMeta } from '../node';
+} from '../declaration/index.js';
+import { type TypeExpressionNode, type TypeResolutionMeta } from '../node/index.js';
 
-import { resolveInterfaceDeclaration, resolveTypeExpressionDeclaration } from './declarations';
-import type { ResolveTypeContext } from './types';
+import {
+	resolveInterfaceDeclaration,
+	resolveTypeExpressionDeclaration,
+} from './declarations/index.js';
+import type { ResolveTypeContext } from './types.js';
 
 export function resolveTypeDeclaration(
 	context: ResolveTypeContext,

@@ -3,7 +3,7 @@ import {
 	type UnionTypeNode,
 	isLiteralTypeNode,
 	isUnionTypeNode,
-} from '../../../node';
+} from '../../../node/index.js';
 
 export function normalizeUnion(exp: TypeExpressionNode): UnionTypeNode {
 	if (isUnionTypeNode(exp)) {

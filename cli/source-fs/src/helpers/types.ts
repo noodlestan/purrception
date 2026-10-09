@@ -5,7 +5,7 @@ import type {
 	EntityExtractorFiles,
 	EntityFileResolver,
 	EntityMetaMatcher,
-} from '../types';
+} from '../types.js';
 
 export type Options<
 	P extends EntityDataBasePartial,

@@ -1,7 +1,7 @@
 import type { OmitTypeNode, TypeRefNode, UnionTypeNode } from '@purrception/lang-ts';
 import type ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractOmitTypeNode(
 	node: ts.TypeReferenceNode | ts.ExpressionWithTypeArguments,

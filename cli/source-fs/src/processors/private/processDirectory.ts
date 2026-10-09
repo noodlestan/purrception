@@ -8,7 +8,7 @@ import {
 	type FilesystemExtractContext,
 	createDirectoryExtractContext,
 	createDirectoryExtractMeta,
-} from '../../contexts';
+} from '../../contexts/index.js';
 
 async function listDirEntries(dir: string): Promise<Dirent[]> {
 	return await fs.readdir(dir, { withFileTypes: true });

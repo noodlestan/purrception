@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-import type { DirectoryExtractMeta } from './types';
+import type { DirectoryExtractMeta } from './types.js';
 
 export async function createDirectoryExtractMeta(
 	dir: string,

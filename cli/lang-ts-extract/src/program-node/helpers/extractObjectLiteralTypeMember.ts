@@ -5,9 +5,9 @@ import {
 } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractNodeJsDoc } from '../../jsdoc';
+import { extractNodeJsDoc } from '../../jsdoc/index.js';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 type ExtractedObjectMember = {
 	name: string;

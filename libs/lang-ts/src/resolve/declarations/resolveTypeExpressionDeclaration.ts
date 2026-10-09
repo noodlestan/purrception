@@ -1,7 +1,7 @@
-import type { TypeExpressionDeclaration } from '../../declaration';
-import type { TypeExpressionNode } from '../../node';
-import { resolveExpression } from '../expressions';
-import { type ResolveTypeContext } from '../types';
+import type { TypeExpressionDeclaration } from '../../declaration/index.js';
+import type { TypeExpressionNode } from '../../node/index.js';
+import { resolveExpression } from '../expressions/index.js';
+import { type ResolveTypeContext } from '../types.js';
 
 export function resolveTypeExpressionDeclaration(
 	context: ResolveTypeContext,

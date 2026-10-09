@@ -1,7 +1,7 @@
 import type { ArrayTypeNode } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractTypeExpression } from './extractTypeExpression';
+import { extractTypeExpression } from './extractTypeExpression.js';
 
 export function extractArrayTypeNode(node: ts.ArrayTypeNode | ts.TypeReferenceNode): ArrayTypeNode {
 	if (ts.isArrayTypeNode(node)) {

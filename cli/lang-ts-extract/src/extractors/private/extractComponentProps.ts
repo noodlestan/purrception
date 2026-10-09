@@ -5,7 +5,7 @@ import {
 	isTypeRefNode,
 } from '@purrception/lang-ts';
 
-import { addChildrenToComponentProps } from '../../program-node/helpers/addChildrenToComponentProps';
+import { addChildrenToComponentProps } from '../../program-node/helpers/addChildrenToComponentProps.js';
 
 /**
  * Extracts component props from a normalized function declaration.

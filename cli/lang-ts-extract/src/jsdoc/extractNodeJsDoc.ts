@@ -1,7 +1,7 @@
 import type { JsDocData } from '@purrception/lang-ts';
 import ts from 'typescript';
 
-import { extractDescription, extractTags, extractTemplateTags } from './private';
+import { extractDescription, extractTags, extractTemplateTags } from './private/index.js';
 export function extractNodeJsDoc(node: ts.Node): JsDocData {
 	const jsDoc = ts.isJSDoc(node)
 		? node

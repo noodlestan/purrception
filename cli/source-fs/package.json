@@ -14,13 +14,10 @@
     "directory": "cli/source-fs"
   },
   "type": "module",
-  "module": "dist/esm/index.mjs",
-  "main": "dist/cjs/index.js",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.mjs",
-      "types": "./dist/esm/index.d.ts",
-      "require": "./dist/cjs/index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
     }
   },
   "files": [
@@ -33,15 +30,13 @@
     "lint:fix": "prettier . -c --write && eslint . --fix",
     "build": "esbuild-cli",
     "build:clean": "rm -rf dist",
-    "build:types:esm": "tsc --project tsconfig.esm.json",
-    "build:types:cjs": "tsc --project tsconfig.cjs.json",
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:watch": "vitest",
     "ci": "npm run lint && npm run build && npm run test:ci"
   },
   "dependencies": {
-    "@purrception/primitives": "0.0.11",
+    "@purrception/primitives": "0.0.12",
     "chokidar": "^5.0.0",
     "perfect-debounce": "^2.1.0"
   },
