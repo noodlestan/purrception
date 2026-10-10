@@ -11,7 +11,7 @@ export default {
     plugins: [
       postBuildPlugin({
         command: 'tsc',
-        args: ['--project', 'tsconfig.types.json'],
+        args: ['--project', 'tsconfig.build.json', '--emitDeclarationOnly'],
         target: 'esm',
       }),
     ],
