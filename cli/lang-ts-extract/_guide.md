@@ -21,7 +21,7 @@ This package does not maintain dedicated records; see the repository `_records/`
 
 ## Knowledge References
 
-This package does not maintain a dedicated architecture reference.
+This package does not maintain a dedicated knowledge reference.
 
 ## Conventions
 
