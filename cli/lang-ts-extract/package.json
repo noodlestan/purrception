@@ -2,6 +2,11 @@
   "name": "@purrception/lang-ts-extract",
   "version": "0.1.0",
   "description": "Purrception extractor for the Typescript Language",
+  "keywords": [
+    "metadata",
+    "extraction",
+    "typescript"
+  ],
   "author": "Noodlestan Collective",
   "license": "MIT",
   "private": false,

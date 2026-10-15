@@ -2,6 +2,11 @@
   "name": "@purrception/primitives",
   "version": "0.1.0",
   "description": "Purrception core types.",
+  "keywords": [
+    "metadata",
+    "primitives",
+    "schemas"
+  ],
   "author": "Noodlestan Collective",
   "license": "MIT",
   "private": false,

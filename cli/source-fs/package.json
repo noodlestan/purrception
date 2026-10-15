@@ -2,6 +2,11 @@
   "name": "@purrception/source-fs",
   "version": "0.1.0",
   "description": "Purrception tools for extracting entities from file systems.",
+  "keywords": [
+    "metadata",
+    "extraction",
+    "file-system"
+  ],
   "author": "Noodlestan Collective",
   "license": "MIT",
   "private": false,

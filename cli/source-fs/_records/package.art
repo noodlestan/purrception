@@ -20,6 +20,12 @@
 
 **Private:** `false`
 
+**Keywords:**
+
+- metadata
+- extraction
+- file-system
+
 **Deployment:** NPM Package Deployment: Source FS
 
 **Files:**

@@ -2,6 +2,11 @@
   "name": "@purrception/lang-ts",
   "version": "0.1.0",
   "description": "Purrception lightweight AST for Typescript. Definitions and helpers.",
+  "keywords": [
+    "metadata",
+    "typescript",
+    "language"
+  ],
   "author": "Noodlestan Collective",
   "license": "MIT",
   "private": false,

@@ -4,6 +4,8 @@
 
 Collection of abstractions and tools for building metadata extraction pipelines from local and remote sources using heuristics, schemas, and factories.
 
+**Keywords:** metadata, extraction, source-code, heuristics.
+
 ## Packages
 
 ### Libraries
