@@ -1,0 +1,34 @@
+# Module
+
+## Package: Primitives
+
+**Purpose:** Purrception core types for modelling entities.
+
+**Description:** Entity and metadata types shared by the Purrception extraction packages.
+
+**Owner:** Project: Purrception
+
+**Namespace:** Namespace: Purrception
+
+**Author:** Noodlestan Collective
+
+**Path:** `libs/primitives/`
+
+**Canonical Name:** `@purrception/primitives`
+
+**Published:** `true`
+
+**Private:** `false`
+
+**Deployment:** NPM Package Deployment: Primitives
+
+**Files:**
+
+- `src`
+- `LICENSE-MIT`
+
+**Language:** TypeScript
+
+**PackageFile:** `package.json`
+
+**License:** License: Noodlestan 2025 MIT

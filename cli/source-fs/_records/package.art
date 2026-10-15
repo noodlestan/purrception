@@ -1,0 +1,41 @@
+# Module
+
+## Package: Source FS
+
+**Purpose:** Extract entities from file systems.
+
+**Description:** Purrception tools for watching file systems and feeding source files into extraction pipelines.
+
+**Owner:** Project: Purrception
+
+**Namespace:** Namespace: Purrception
+
+**Author:** Noodlestan Collective
+
+**Path:** `cli/source-fs/`
+
+**Canonical Name:** `@purrception/source-fs`
+
+**Published:** `true`
+
+**Private:** `false`
+
+**Deployment:** NPM Package Deployment: Source FS
+
+**Files:**
+
+- `dist`
+- `LICENSE-MIT`
+
+**Language:** TypeScript
+
+**PackageFile:** `package.json`
+
+**Dependencies:**
+
+- Runtime:
+  - `@purrception/primitives` @ `^0.1.0` — Core entity types.
+  - `chokidar` @ `^5.0.0` — File system watching.
+  - `perfect-debounce` @ `^2.1.0` — Debouncing watcher events.
+
+**License:** License: Noodlestan 2025 MIT

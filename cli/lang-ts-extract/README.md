@@ -1,8 +1,8 @@
 # @purrception/lang-ts-extract
 
-> Purrception extractor for the Typescript Language.
+> Extract Typescript declaration into Purrception AST trees.
 
-Generates lightweight and portable AST trees for declarations and JsDoc annotation.
+Generates lightweight and portable AST trees of declarations and JsDoc annotations.
 
 This package is part of the [@purrception](../../README.md) toolkit.
 

@@ -1,0 +1,17 @@
+# Module
+
+## NPM Package Deployment: Source FS
+
+**Owner:** Package: Source FS
+
+**Status:** `DEPLOYED`
+
+**Build:** Deployment Build: NPM Command
+
+**Deploy:** Deployment Command: NPM Package CLI
+
+**Canonical Name:** `@purrception/source-fs`
+
+**Registry:** `https://registry.npmjs.org`
+
+**Access:** `public`

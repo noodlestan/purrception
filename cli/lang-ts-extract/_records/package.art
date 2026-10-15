@@ -1,0 +1,41 @@
+# Module
+
+## Package: Lang TS Extract
+
+**Purpose:** Extract Typescript declaration into Purrception AST trees.
+
+**Description:** Purrception extractor for the Typescript language; generates lightweight and portable AST trees of declarations and JsDoc annotations.
+
+**Owner:** Project: Purrception
+
+**Namespace:** Namespace: Purrception
+
+**Author:** Noodlestan Collective
+
+**Path:** `cli/lang-ts-extract/`
+
+**Canonical Name:** `@purrception/lang-ts-extract`
+
+**Published:** `true`
+
+**Private:** `false`
+
+**Deployment:** NPM Package Deployment: Lang TS Extract
+
+**Files:**
+
+- `dist`
+- `LICENSE-MIT`
+
+**Language:** TypeScript
+
+**PackageFile:** `package.json`
+
+**Dependencies:**
+
+- Runtime:
+  - `@purrception/primitives` @ `^0.1.0` — Core entity types.
+  - `@purrception/lang-ts` @ `^0.1.0` — Typescript AST definitions.
+  - `typescript` @ `^5.9.3` — Typescript compiler API.
+
+**License:** License: Noodlestan 2025 MIT

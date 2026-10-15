@@ -1,0 +1,39 @@
+# Module
+
+## Package: Lang TS
+
+**Purpose:** Purrception lightweight AST definitions and helpers for Typescript.
+
+**Description:** Defines the Purrception Typescript AST node types and the helpers for traversing them.
+
+**Owner:** Project: Purrception
+
+**Namespace:** Namespace: Purrception
+
+**Author:** Noodlestan Collective
+
+**Path:** `libs/lang-ts/`
+
+**Canonical Name:** `@purrception/lang-ts`
+
+**Published:** `true`
+
+**Private:** `false`
+
+**Deployment:** NPM Package Deployment: Lang TS
+
+**Files:**
+
+- `src`
+- `LICENSE-MIT`
+
+**Language:** TypeScript
+
+**PackageFile:** `package.json`
+
+**Dependencies:**
+
+- Runtime:
+  - `@purrception/primitives` @ `^0.1.0` — Core entity types.
+
+**License:** License: Noodlestan 2025 MIT

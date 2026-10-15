@@ -1,0 +1,17 @@
+# Module
+
+## NPM Package Deployment: Lang TS Extract
+
+**Owner:** Package: Lang TS Extract
+
+**Status:** `DEPLOYED`
+
+**Build:** Deployment Build: NPM Command
+
+**Deploy:** Deployment Command: NPM Package CLI
+
+**Canonical Name:** `@purrception/lang-ts-extract`
+
+**Registry:** `https://registry.npmjs.org`
+
+**Access:** `public`

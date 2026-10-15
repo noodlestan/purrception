@@ -1,6 +1,6 @@
 # @purrception/source-fs
 
-> Purrception tools for extracting entities from file systems.
+> Extract entities from file systems.
 
 This package is part of the [@purrception](../../README.md) toolkit.
 
