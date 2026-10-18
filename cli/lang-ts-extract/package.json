@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Purrception extractor for the Typescript Language",
   "keywords": [
+    "cli",
+    "typescript",
     "metadata",
     "extraction",
-    "typescript"
+    "source-code",
+    "heuristics"
   ],
   "author": "Noodlestan Collective",
   "license": "MIT",

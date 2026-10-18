@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "Purrception core types.",
   "keywords": [
-    "metadata",
+    "library",
     "primitives",
-    "schemas"
+    "schemas",
+    "metadata",
+    "extraction",
+    "source-code",
+    "heuristics"
   ],
   "author": "Noodlestan Collective",
   "license": "MIT",

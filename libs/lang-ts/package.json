@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "Purrception lightweight AST for Typescript. Definitions and helpers.",
   "keywords": [
-    "metadata",
+    "library",
     "typescript",
-    "language"
+    "language",
+    "metadata",
+    "extraction",
+    "source-code",
+    "heuristics"
   ],
   "author": "Noodlestan Collective",
   "license": "MIT",

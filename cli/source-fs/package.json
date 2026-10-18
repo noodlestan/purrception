@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Purrception tools for extracting entities from file systems.",
   "keywords": [
+    "cli",
+    "file-system",
     "metadata",
     "extraction",
-    "file-system"
+    "source-code",
+    "heuristics"
   ],
   "author": "Noodlestan Collective",
   "license": "MIT",

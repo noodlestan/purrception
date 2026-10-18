@@ -22,9 +22,12 @@
 
 **Keywords:**
 
+- cli
+- typescript
 - metadata
 - extraction
-- typescript
+- source-code
+- heuristics
 
 **Deployment:** NPM Package Deployment: Lang TS Extract
 

@@ -22,9 +22,13 @@
 
 **Keywords:**
 
-- metadata
+- library
 - primitives
 - schemas
+- metadata
+- extraction
+- source-code
+- heuristics
 
 **Deployment:** NPM Package Deployment: Primitives
 

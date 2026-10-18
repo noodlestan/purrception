@@ -22,9 +22,13 @@
 
 **Keywords:**
 
-- metadata
+- library
 - typescript
 - language
+- metadata
+- extraction
+- source-code
+- heuristics
 
 **Deployment:** NPM Package Deployment: Lang TS
 
