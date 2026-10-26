@@ -45,10 +45,7 @@ export type ComponentDeclaration = DeclarationBase<'component'> & {
 };
 
 export type Declaration =
-	| TypeExpressionDeclaration
-	| InterfaceDeclaration
-	| FunctionDeclaration
-	| ComponentDeclaration;
+	TypeExpressionDeclaration | InterfaceDeclaration | FunctionDeclaration | ComponentDeclaration;
 
 export type TypeDeclaration = TypeExpressionDeclaration | InterfaceDeclaration;
 

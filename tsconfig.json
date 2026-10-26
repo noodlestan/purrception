@@ -1,5 +1,5 @@
 {
   "extends": "@noodlestan/tsconfig/monorepo/tsconfig.json",
-  "include": ["libs/"],
+  "include": ["cli/", "libs/"],
   "exclude": ["**/node_modules/", "**/dist/", "**/coverage/"]
 }

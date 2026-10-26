@@ -10,8 +10,7 @@ import {
 } from './private/index.js';
 export function extractFunctionJsDoc(node: FunctionLikeDeclaration): FunctionJsDocData {
 	const jsDoc = ts.getJSDocCommentsAndTags(node as ts.Node).find(ts.isJSDoc) as
-		| ts.JSDoc
-		| undefined;
+		ts.JSDoc | undefined;
 
 	const description = extractDescription(jsDoc);
 	const templateTags = extractTemplateTags(jsDoc);
