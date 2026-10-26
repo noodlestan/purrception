@@ -1,6 +1,6 @@
 {
   "name": "@purrception/source-fs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Purrception tools for extracting entities from file systems.",
   "keywords": [
     "cli",
@@ -12,14 +12,23 @@
   ],
   "author": "Noodlestan Collective",
   "license": "MIT",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/noodlestan/purrception.git",
     "directory": "cli/source-fs"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE-MIT",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22"
   },
   "type": "module",
   "exports": {
@@ -28,10 +37,6 @@
       "import": "./dist/index.mjs"
     }
   },
-  "files": [
-    "dist",
-    "LICENSE-MIT"
-  ],
   "scripts": {
     "dev": "esbuild-cli-watch",
     "lint": "prettier . -c && eslint . && tsc --noEmit",
@@ -44,9 +49,9 @@
     "ci": "npm run lint && npm run build && npm run test:ci"
   },
   "dependencies": {
-    "@purrception/primitives": "^0.1.0",
-    "chokidar": "^5.0.0",
-    "perfect-debounce": "^2.1.0"
+    "@purrception/primitives": "0.1.0",
+    "chokidar": "5.0.0",
+    "perfect-debounce": "2.1.0"
   },
   "devDependencies": {}
 }
