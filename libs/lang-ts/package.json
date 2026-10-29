@@ -1,6 +1,6 @@
 {
   "name": "@purrception/lang-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Purrception lightweight AST for Typescript. Definitions and helpers.",
   "keywords": [
     "library",
@@ -46,7 +46,7 @@
     "ci": "npm run lint && npm run build && npm run test:ci"
   },
   "dependencies": {
-    "@purrception/primitives": "*"
+    "@purrception/primitives": "0.1.0"
   },
   "devDependencies": {}
 }

@@ -1,7 +1,7 @@
-    # CHANGELOG
+# CHANGELOG
 
-## Unreleased
+## 0.1.1
 
-### Added
+### Changed
 
-- Placeholder `CHANGELOG.md`. Remove this entry when next version CHANGELOG is generated.
+- **Update dependencies** - Pin `@purrception/primitives@0.1.0`.
