@@ -1,7 +1,7 @@
 # CHANGELOG
 
-## Unreleased
+## 0.1.1
 
-### Added
+### Changed
 
-- Placeholder `CHANGELOG.md`. Remove this entry when next version CHANGELOG is generated.
+- **Update dependencies** - Pin `@purrception/lang-ts@0.1.1` and `@purrception/primitives@0.1.0`.
