@@ -2,6 +2,10 @@
 
 ## Namespace: Purrception
 
+**Purpose:** Publish the Purrception language tooling packages under a shared identity.
+
+**Description:** TypeScript language extraction libraries and source tooling (`lang-ts`, `lang-ts-extract`, `source-fs`, `primitives`).
+
 **Canonical Name:** `@purrception`
 
 **Owner:** Project: Purrception
